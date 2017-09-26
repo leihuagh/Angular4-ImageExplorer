@@ -6,4 +6,15 @@ This is an image search application that queries Pixabay API for image data. Dep
 <hr>
 <a href="https://pixabay.com/api/docs/">Pixabay API Documentation</a>
 <br>
+To get the API key, sign up on pixabay website.
+
+Store the API key in enviornment.ts
+<br>
 Generate the project using Angular CLI
+
+Create a component to display the images that are returned by API
+
+```
+ng generate component [nameOfTheComponent]
+```
+
