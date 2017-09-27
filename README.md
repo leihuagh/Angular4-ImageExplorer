@@ -17,6 +17,35 @@ Create a component to display the images that are returned by API
 ```
 ng generate component [nameOfTheComponent]
 ```
+Installing dependencies for angular material
+```
+npm install --save @angular/material @angular/cdk
+```
+```
+npm install --save @angular/animations
+```
+```
+npm install bootstrap --save
+```
+```
+npm install --save angular2-masonry
+```
+masonry gives responsive feel to set of images when displayed in a group
+
+<br>
+
+Add relative paths in angular-cli.json under "scripts" <br>
+Include javascript package imagesloaded in index.html
+https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js under script tag.
+
+```
+"../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
+```
+Include fonts link in index.html under head tag
+Google font: Fredoka One
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
 
 <hr>
 <h2>Issues</h2>
@@ -43,8 +72,8 @@ export class AppModule {
 Reference link: https://stackoverflow.com/questions/43609853/angular-4-and-ionic-3-no-provider-for-http
 
 <br>
- I had to import the FormsModule for the [(ngModel)] on the <input> to work
- You have to register the FormsModule to your module (/app.module.ts):
+ I had to import the FormsModule for the [(ngModel)] on the input tag to work<br>
+ You have to register the FormsModule to your module (app.module.ts):
 
 ```
 import { FormsModule} from '@angular/forms';
@@ -60,26 +89,5 @@ export class AppModule {
 }
 ```
 
-Installing dependencies for angular material
-npm install --save @angular/material @angular/cdk
-
-npm install --save @angular/animations
-
-npm install bootstrap --save
-
-npm install --save angular2-masonry
-
-Add relative paths in angular-cli.json
-"../node_modules/bootstrap/dist/css/bootstrap.min.css",
-        "../node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
-
-masonry gives responsive feel to set of images when displayed in a group
-
-Google font: Fredoka One
-<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
-
-Include javascript package imagesloaded in index.html
-https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js
 
 
-npm install material-design-icons
