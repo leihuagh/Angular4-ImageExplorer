@@ -59,3 +59,17 @@ import { FormsModule} from '@angular/forms';
 export class AppModule {
 }
 ```
+
+Installing dependencies for angular material
+npm install --save @angular/material @angular/cdk
+
+npm install --save @angular/animations
+
+npm install bootstrap --save
+
+npm install --save angular2-masonry
+
+masonry gives responsive feel to set of images when displayed in a group
+
+Google font: Fredoka One
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
