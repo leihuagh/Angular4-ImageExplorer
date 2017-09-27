@@ -42,3 +42,20 @@ export class AppModule {
 
 Reference link: https://stackoverflow.com/questions/43609853/angular-4-and-ionic-3-no-provider-for-http
 
+<br>
+ I had to import the FormsModule for the [(ngModel)] on the <input> to work
+ You have to register the FormsModule to your module (/app.module.ts):
+
+```
+import { FormsModule} from '@angular/forms';
+
+@NgModule({
+  imports: [
+    FormsModule
+  ],
+  declarations: [ AppComponent ],
+  bootstrap:    [ AppComponent ]
+})
+export class AppModule {
+}
+```
