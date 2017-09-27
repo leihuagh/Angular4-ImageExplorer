@@ -7,12 +7,22 @@ The application is deployed on Heroku. https://image-explorer.herokuapp.com/
 <hr>
 <a href="https://pixabay.com/api/docs/">Pixabay API Documentation</a>
 <br>
-To get the API key, sign up on pixabay website.
+To get the API key, sign up on <a href="https://pixabay.com/">pixabay website</a>
+<hr>
+<img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/4_QueryTexas1.png" />
+<img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/4_QueryTexas1.png" />
+<img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/6_QueryIndia.png" />
+<img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/1_consoleOutput.png" />
+<img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/2_ConsoleOp.png" />
+<img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/3_consoleOp.png" />
+<img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/7.png" />
+<img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/8_masonryEffect.png" />
+<img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/9_masonryEffect.png" />
 
+
+<hr>
+Generate the project using Angular CLI <br>
 Store the API key in enviornment.ts
-<br>
-Generate the project using Angular CLI
-
 Create a component to display the images that are returned by API
 
 ```
