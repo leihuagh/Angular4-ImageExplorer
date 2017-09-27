@@ -69,7 +69,14 @@ npm install bootstrap --save
 
 npm install --save angular2-masonry
 
+Add relative paths in angular-cli.json
+"../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
+
 masonry gives responsive feel to set of images when displayed in a group
 
 Google font: Fredoka One
 <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+Include javascript package imagesloaded in index.html
+https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js
