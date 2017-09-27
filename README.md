@@ -80,3 +80,6 @@ Google font: Fredoka One
 
 Include javascript package imagesloaded in index.html
 https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js
+
+
+npm install material-design-icons
