@@ -9,13 +9,19 @@ The application is deployed on Heroku. https://image-explorer.herokuapp.com/
 <br>
 To get the API key, sign up on <a href="https://pixabay.com/">pixabay website</a>
 <hr>
+<h2>Screenshots</h2>
+
+<h3>When user enters some query, he gets the related images</h3>
 <img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/4_QueryTexas1.png" />
 <img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/4_QueryTexas1.png" />
 <img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/6_QueryIndia.png" />
+<h3>Console Output </h3>
 <img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/1_consoleOutput.png" />
 <img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/2_ConsoleOp.png" />
+<h3>JSON objects</h3>
 <img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/3_consoleOp.png" />
 <img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/7.png" />
+<h3>Masonry Effect</h3>
 <img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/8_masonryEffect.png" />
 <img src="https://github.com/patilankita79/Angular4-ImageExplorer/blob/master/Screenshots/9_masonryEffect.png" />
 
