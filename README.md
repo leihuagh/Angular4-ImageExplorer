@@ -18,3 +18,27 @@ Create a component to display the images that are returned by API
 ng generate component [nameOfTheComponent]
 ```
 
+<hr>
+<h2>Issues</h2>
+I faced the following issues while working on this project.
+
+Issue 1: No provider for Http
+Solution: <br>
+You have to register the HttpModule to your module (/app.module.ts):
+
+```
+import { HttpModule} from '@angular/http';
+
+@NgModule({
+  imports: [
+    HttpModule
+  ],
+  declarations: [ AppComponent ],
+  bootstrap:    [ AppComponent ]
+})
+export class AppModule {
+}
+```
+
+Reference link: https://stackoverflow.com/questions/43609853/angular-4-and-ionic-3-no-provider-for-http
+
